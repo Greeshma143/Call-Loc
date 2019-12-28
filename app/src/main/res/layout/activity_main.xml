@@ -1,0 +1,27 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="CALL"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/loc"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/wm"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHATSAPP MESSAGE"
+        android:textSize="20dp"/>
+
+</LinearLayout>
